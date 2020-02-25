@@ -1,0 +1,4 @@
+- list berguna untuk menyimpan lebih dari satu data seperti array, karena seperti array maka index adalah kunci dari sebuah list.untuk membuat list sama halnya seperti array dengan mengisikan seperti list = [] atau list = [a,b,c].
+- mengambil list berdasarkan index, contoh list = [a,b,c] untuk mengambil nilai c maka print (list[2]), list sama seperti array yaitu berindex yang dimulai dari 0, maka jika pada contoh tadi jumlah list nya ialah 0,1,2.
+-pop() membuang nilai tertentu dengan nilai index akhir misalkan list = [1,2,3,5,6] jika diberikan list.pop(),maka nilai 6 akan hilang.
+- dict() adalah fungsi dictonary yang digunakan untuk menyimpan data menggunakan kunci yang dibuat, hal ini berarti dictonary berbeda dengan array dan list, dict ditulis dict = {'isi':'kunci'} artinya jika hendak mengakses dicktonary harus memanggil kuncinya.

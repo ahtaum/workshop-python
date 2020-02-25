@@ -1,0 +1,5 @@
+-  modul adalah biasa disebut dengan package yang berisi kumpulan-kumpulan fungsi yang disatukan dan dipanggil atau di import.
+- modul dipanggil menggunakan nama modul seperti **import namamodul** setelah nama modul di import maka fungsi yang di dalamnya dapat dipanggil dan berikut penulisannya **namamodul.namafungsi()** .untuk membuat sebuah modul nama file dan nama modul haruslah sama.
+- __name__ adalah fungsi untuk memunculkan nama modul.
+- dir() adalah fungsi untuk memunculkan direktori dari file program yang di jalankan.
+- sys adalah modul yang digunakan untuk mengakses konfigurasi intrepeter pada saat runtime dan berinteraksi dengan enviroment sistem operasi, contoh sys.path digunakan untuk menambahkan path python pada sistem operasi.
