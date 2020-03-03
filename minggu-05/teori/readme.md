@@ -1,0 +1,10 @@
+- f digunakan untuk menginputkan nilai di dalam String, lalu notasi  {} yang didalamnya adalah variabel digunakan untuk proses concat,bedanya dengan proses concat menggunakan koma titik,dengan notasi ini variabel bisa melakukan proses lain seperti memasukan nilai operasi aritmatika ata bahkan membuat sebuah dictonary.
+- repr() digunakan untuk mengkonversi string dengan output biasanya menampilkan ''.
+- math adalah library yang berisi fungsi-fungsi untuk kebutuhan matematika.
+- format() berfungsi untuk melakukan pengeaturan format String yang akan dicetak atau ditampilkan.fungsi format() punya dua parameter yaitu value dan objek.
+- with open() digunakan untuk membuka sebuah file di dalam parameter dari fungsi open(), apabila file tersebut tidak ada atau belum terbuat maka otomatis file tersebut akan terbuat sesuai nama,misalnya (Workfile) maka nanti pada folder project akan terbuat sebuah file bernama workfile.
+- read() digunakan untuk membaca dari sebuah file menggunakan perantara objek.
+- closed digunakan untuk menutup file yang dibuka dari open() melalui perantara objek.
+- json adalah media javascript yang digunakan untuk membawa sebuah data.json juga bisa dipanggil pada python dengan format library json.
+- json.dumps() digunakan untuk mengconvert sebuah string dari pyton ke dalam json.
+- json.load() digunakan untuk mengambil data json dari sebuah alamat direktori atau dari sebuah variabel.
