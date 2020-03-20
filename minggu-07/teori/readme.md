@@ -1,0 +1,6 @@
+- Class adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai behaviour tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan state-nya.
+- Class memiliki kumpulan atribut dan method yang dijadikan satu.
+- nonlocal digunakan untuk bekerja dengan variabel di dalam fungsi bersarang, di mana variabel seharusnya tidak menjadi bagian dari fungsi dalam ( inner function ).
+- class memiliki atribut yang berfungsi sebagai identitas class yang mewakili.method pada class berfungsi sebagai behavior atau prilaku pada class.
+- __init__ adalah sebuah method yang sudah di direservasi oleh Python sebagai method yang dipanggil saat kita membuat sebuah objek , Di setiap metode class harus selalu ada self sebagai parameter pertamanya self digunakan untuk membuat sebuah properti serta dapat di masukan sebuah nilai di dalamnya.
+- untuk pewarisan pembuatan class turunan harus di sertakan nama class parent di dalam paramater class turunannya.
