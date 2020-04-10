@@ -1,0 +1,17 @@
+- Modul glob Dalam Python, digunakan untuk mengambil file / nama path yang cocok dengan pola yang ditentukan.
+- Modul sys memberikan informasi tentang konstanta, fungsi, dan metode interpreter Python.
+- MOdul math pada pyhton berfungsi untuk memberikan fungsi-fungsi untuk keperluan pengolahan matematika, seperti log,cos,dll.
+- MOdul random berfungsi untuk mendapatkan sebuah nilai random, entah dari integer,string,pecahan , ada beberapa fungsi yang berbeda terkait dengan cara kerja untuk menghasilkan nilai random.
+- MOdul statistics, sepeti namanya statistics berfungsi untuk keperluan statistika seperi mencari nilai, mean,median,MOdus menentukan probabilitas dll.
+- MOdul Urllib adalah MOdul penanganan URL untuk python. digunakan untuk mengambil URL (Uniform Resource Locators). Ini menggunakan fungsi urlopen dan dapat mengambil URL menggunakan berbagai protokol yang berbeda.
+- MOdul date berfungsi untuk mengatur tanggal,bulan,tahun,tahun sekarang, dll.
+- MOdul zlib merupakan MOdul yang digunakan untuk proses kompresing.
+- MOdul timer berfungsi untuk mengatur waktu.
+- MOdul unittest digunakan untuk mengetest program / sebagai media tester
+- MOdul reprlib menyediakan sarana untuk menghasilkan representasi objek dengan batasan ukuran string yang dihasilkan.
+- MOdul extwrap digunakan untuk memformat dan membungkus teks biasa.
+- MOdul locale berfungsi untuk menangani operasi yang mungkin bergantung pada bahasa atau lokasi pengguna. Misalnya, ia menangani pemformatan angka sebagai mata uang, membandingkan string untuk pengurutan, dan bekerja dengan tanggal.
+- MOdul template berfungsi untuk memberikan sebuah template pada python, MOdul ini biasa digunakan pada gui.
+- MOdul logging digunakan untuk mengintegrasikan pesan log user dengan pustaka tersebut untuk menghasilkan log untuk aplikasi user Dengan MOdul logging yang diimpor, user dapat menggunakan sesuatu yang disebut "logger" untuk mencatat pesan yang ingin Anda lihat.
+- MOdul array python memberi kita tipe objek yang bisa kita gunakan untuk menunjukkan array.
+- MOdul decimal digunakan untuk operasi decimal.
