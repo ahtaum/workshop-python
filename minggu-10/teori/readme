@@ -1,0 +1,4 @@
+- psycopg2 dalah sebuah antarmuka untuk menghubungkan ke server database MySQL dari Python.singkt nya adalah driver yang menghubungkan cockroachDB ke python.
+- SQLAlchemy adalah sebuah Object Relational Mapper atau ORM. ORM memungkinkan aplikasi untuk menggunakan database dengan data high-level seperti kelas, objek dan method daripada menggunakan tabel dan kode SQL secara langsung.
+- SQLAlchemy mengandalkan keberadaan kunci asing untuk menghasilkan ekspresi BERGABUNG dari kode aplikasi.
+- jika kunci asing pada SQLAlchemy dihapus dari scema,SQLAlchemy tidak akan menghasilkan gabungan (join).
