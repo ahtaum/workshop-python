@@ -1,0 +1,20 @@
+- flask merupakan sebuah framework yang ditulis menggunakan bahasa pyhton untuk keperluan web, flask dikhususkan agar pyhton dapat membuat sebuah web.
+
+- Aplikasi Flask adalah turunan dari kelas Flask. Segala sesuatu tentang aplikasi, seperti konfigurasi dan URL, akan didaftarkan pada kelas Flask.
+
+- Cara paling mudah untuk membuat aplikasi Flask adalah dengan membuat instance Flask global langsung di bagian atas kode, seperti bagaimana "Helo, World!".Alih-alih membuat instance Flask secara global, kita akan membuatnya di dalam suatu fungsi. Fungsi ini dikenal sebagai factory aplication. Setiap konfigurasi, registrasi, dan pengaturan lain yang dibutuhkan aplikasi akan terjadi di dalam fungsi, maka aplikasi akan dikembalikan.
+
+- pada file __init__.py :
+PENJELASAN : app = Flask(__name__, instance_relative_config=True) fungsinya membuat sebuah inisiasi flask,__name__  adalah nama dari modul python Aplikasi perlu tahu di mana letaknya untuk mengatur beberapa jalur dan __name__ adalah cara yang mudah untuk mengkonfigurasinya,instance_relative_config = True memberi tahu aplikasi bahwa file konfigurasi relatif terhadap folder instance. Folder instance terletak di luar paket flaskr dan dapat menyimpan data lokal yang tidak boleh dikomit ke kontrol versi, seperti rahasia konfigurasi dan file database.
+app.config.from_mapping () menetapkan beberapa konfigurasi default yang akan digunakan aplikasi: SECRET_KEY digunakan oleh Flask dan ekstensi untuk menjaga keamanan data. Ini diatur ke 'dev' untuk memberikan nilai yang nyaman selama pengembangan, tetapi harus diganti dengan nilai acak saat menggunakan.DATABASE adalah path tempat file database SQLite akan disimpan. Itu ada di bawah app.instance_path, yang merupakan jalur yang telah dipilih Flask untuk folder contoh. kita akan belajar lebih banyak tentang basis data di bagian selanjutnya.
+app.config.from_pyfile () menimpa konfigurasi default dengan nilai yang diambil dari file config.py di folder instance jika ada. Misalnya, saat menggunakan, ini dapat digunakan untuk menetapkan SECRET_KEY yang asli.test_config juga dapat diteruskan ke pabrik, dan akan digunakan sebagai pengganti konfigurasi instance. Ini agar tes yang akan kita tulis nanti dalam tutorial dapat dikonfigurasikan secara independen dari nilai pengembangan apa pun yang telah kita konfigurasi.
+os.makedirs () memastikan app.instance_path ada. Flask tidak membuat folder instance secara otomatis, tetapi harus dibuat karena proyek kita akan membuat file database SQLite di sana.
+@ app.route () membuat rute sederhana sehingga kita dapat melihat aplikasi berfungsi sebelum masuk ke sisa tutorial. Ini menciptakan koneksi antara URL / halo dan fungsi yang mengembalikan respons, string 'Halo, Dunia!' pada kasus ini.
+
+- cara merunning flask menggunakan terminal atau console, disini saya menggunakan terminal milik anaconda3 di windows 10, untuk merunning nya ketik : set FLASK_APP=flaskr lalu ketik set FLASK_ENV=development dan ketik flask run setelah dirunning terminal akan menampilkan iphost disini saya mendapatkan iphost http://127.0.0.1:5000 coba ketik ip tersebut dengan tambahan ' /hello '  seperti ini http://127.0.0.1:5000/hello yang mana akan memunculkan halaman web dengan tulisan hello world
+
+- set FLASK_APP=flaskr mendeklarasikan bahwa folder flask beserta isinya merupakan aplikasi flask.
+- set FLASK_ENV=development memberikan environment untuk pengembangan.
+- flask run menjalankan aplikasi flask yang sudah diset APP dan env nya
+
+- SQLITE3 direkomendasikan oleh flask karena pengguna tidak perlu memerlukan pengaturan server database yang terpisah dan terintegrasi ke Python.
