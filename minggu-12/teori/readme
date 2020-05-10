@@ -1,0 +1,5 @@
+- SciPy adalah library open-source pyhton yang bisa digunakan untuk keperluan matematika, komputasi ilmiah, Teknik, dan komputasi teknis.
+- SciPy memiliki fungsi dengan berbagai format yaitu : Matlab, Arff, Wave, Pasar Matrix, IDL, NetCDF, TXT, CSV dan format biner.
+- package scipy.special berisi berbagai fungsi fisika matematika.Fungsi khusus SciPy meliputi Cubic Root, Exponential, Log sum Exponential, Lambert, Permutasi dan Kombinasi, Gamma, Bessel, hypergeometric, Kelvin, beta, silinder parabola, Relative Error Exponential, dll.
+- perbedaan numpy dan SciPy , Numpy dikhusukan untuk keperluan matematika dan operasi numerik,Numpy adalah library paling berguna untuk Data Science,Numpy hanya berisi tipe data array yang melakukan operasi paling dasar seperti pengurutan, pembentukan, pengindeksan, dll.SciPy dibangun di atas NumPy,SciPy adalah versi lengkap dari Aljabar Linier sementara Numpy hanya berisi beberapa fitur.Sebagian besar fitur Ilmu Data Science di Scipy lebih lengkap dari pada Numpy.
+- SciPy berisi varietas sub paket yang membantu menyelesaikan masalah paling umum terkait dengan Perhitungan Ilmiah.
