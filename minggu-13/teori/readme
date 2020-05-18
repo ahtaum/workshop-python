@@ -1,0 +1,8 @@
+- pandas adalah library perangkat lunak yang ditulis untuk bahasa pemrograman Python untuk manipulasi dan analisis data. Secara khusus, ia menawarkan struktur data dan operasi untuk memanipulasi tabel numerik dan deret waktu.
+- penjelansan potongan **kode df = pd.DataFrame(np.random.randn(6,5), index=dates, columns=list('ABCDE'))** bisa diartikan df membaca sebagai data frame yang mana membuat tabel dengan 5 kolom dan 6 baris dengan index **dates** dan kolom tersebut diberinama urut **ABCDE** .
+- **DataFrame.to_numpy()** memberikan representasi NumPy dari data yang mendasarinya.Perhatikan bahwa ini bisa menjadi operasi yang mahal ketika DataFrame memiliki kolom dengan tipe data yang berbeda, yang turun ke perbedaan mendasar antara panda dan NumPy: Array NumPy memiliki satu tipe untuk seluruh array, sementara panda DataFrames memiliki satu jenis huruf per kolom.Saat memanggil **DataFrame.to_numpy ()**, panda akan menemukan dtype NumPy yang dapat menampung semua dtypes di DataFrame. Ini mungkin akhirnya menjadi objek, yang membutuhkan casting setiap nilai ke objek Python.
+- perintah **describe()** pada pandas berfungsi untuk menampilkan ringkasan statistik dari data.
+- perintah **timestamp()** berguna untuk mengatur waktu dari tanggal,tahun,dan bulan yang settingan parameternya banyak jenisnya.
+- **series()** , berfungsi untuk melakukan operasi resampling selama konversi frekuensi (mis., mengubah data kedua menjadi data 5 menit).
+- **df.to_csv('namafile.csv')** berfungsi untuk menulis atau membuat sebuah data csv, dengan memasukan nama file dengan format .csv .
+- **pd.read_csv('foo.csv')** membaca file csv yang tersimpan atau sudah ada lalu menampilkannya.data csv yang sudah di panggil dapat di olah lebih lanjut.
