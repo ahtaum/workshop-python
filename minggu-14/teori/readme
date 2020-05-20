@@ -1,0 +1,5 @@
+- Dataset adalah objek seperti kamus yang menampung semua data dan beberapa metadata tentang data. Data ini disimpan dalam anggota data., Yang merupakan array n_samples, n_features.
+- dari program pertama pada src terdapat beberapa sempel digit yang dimasukan ke dalam array,dalam mode 2d yang di panggil menggunakan fungsi .images[0] data akan menampilkan 8 kolom dan mengahasilkan data baru.
+- kita bisa memprediksi nilai baru pada digits data, prediksi yang digunakan adalah gambar terakhir dari digits data, Dengan memprediksi, hal ini akan menentukan gambar dari set pelatihan yang paling cocok dengan gambar terakhir.
+- pada program in 27-30 , dijelaskan bahwa fungsi pertama predict() mengembalikan array integer, karena iris.target (array integer) digunakan sesuai fungsi kedua predict() yang mengembalikan array string, karena iris.target_names cocok.
+- dari program in 31-34 , dijelaskan, kernel default rbf pertama kali diubah menjadi linear melalui SVC.set_params () setelah estimator dibuat, dan diubah kembali ke rbf untuk mereparasi estimator dan membuat prediksi kedua.
